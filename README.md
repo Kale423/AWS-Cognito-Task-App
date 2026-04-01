@@ -43,7 +43,7 @@ Amazon Cognito (User Authentication)
 ![login](screenshots/login.png)
 
 ### Confirmation Screen
-![Confirm](screenshots/confrim.png)
+![Confirmation](screenshots/confrimation.png)
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
