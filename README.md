@@ -20,9 +20,8 @@ http://ksmith-cognito-aws-task-app-2026.s3-website-us-east-1.amazonaws.com
 
 ## Architecture
 
-Frontend (HTML/CSS/JS hosted on Amazon S3)  
-        ↓  
-Amazon Cognito (User Authentication)
+**Frontend:** HTML, CSS, JavaScript (hosted on Amazon S3)   
+**Authentication** Amazon Cognito
 
 
 ## Screenshots
