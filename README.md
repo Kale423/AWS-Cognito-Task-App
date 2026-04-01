@@ -38,11 +38,15 @@ Amazon Cognito (User Authentication)
 - Improve UI/UX design
 
 ## Screenshots
-![login](screenshot/login.png)
 
-![login](screenshot/confrim.png)
+### Login Screen
+![login](screenshots/login.png)
 
-![login](screenshot/dashboard.png)
+### Confirmation Screen
+![Confirmation](screenshots/confrim.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
 ## Live Demo
 http://ksmith-cognito-aws-task-app-2026.s3-website-us-east-1.amazonaws.com
