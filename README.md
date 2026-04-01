@@ -37,5 +37,10 @@ Amazon Cognito (User Authentication)
 - Secure API Gateway with Cognito authorizer
 - Improve UI/UX design
 
+## Screenshots
+![login](screenshot/login.png)
+![login](screenshot/confrim.png)
+![login](screenshot/dashboard.png)
+
 ## Live Demo
 http://ksmith-cognito-aws-task-app-2026.s3-website-us-east-1.amazonaws.com
