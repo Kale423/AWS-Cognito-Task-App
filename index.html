@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Cognito Task App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>My AWS Task App</h1>
+    <p class="subtitle">Secure serverless task manager built with AWS.</p>
+
+    <div id="authContainer">
+      <h2 id="authTitle">Sign In</h2>
+
+      <input type="email" id="emailInput" placeholder="Enter your email" />
+      <input type="password" id="passwordInput" placeholder="Enter your password" />
+
+      <button id="authBtn">Sign In</button>
+
+      <p id="switchText">
+        Don’t have an account?
+        <span id="switchMode">Sign Up</span>
+      </p>
+    </div>
+
+    <div id="confirmContainer" style="display: none;">
+      <h2>Confirm Your Account</h2>
+      <p class="subtitle">Enter the confirmation code sent to your email.</p>
+
+      <input type="text" id="confirmCodeInput" placeholder="Enter confirmation code" />
+      <button id="confirmBtn">Confirm Account</button>
+
+      <p id="resendText">
+        Didn’t get a code?
+        <span id="resendCode">Resend Code</span>
+      </p>
+    </div>
+
+    <div id="appContainer" style="display: none;">
+      <div class="top-bar">
+        <p id="welcomeText">Welcome, user@example.com</p>
+        <button id="signOutBtn">Sign Out</button>
+      </div>
+
+      <div class="input-row">
+        <input type="text" id="taskInput" placeholder="Enter a task" />
+        <button id="addBtn">Add Task</button>
+      </div>
+
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/amazon-cognito-identity-js@6.3.16/dist/amazon-cognito-identity.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
